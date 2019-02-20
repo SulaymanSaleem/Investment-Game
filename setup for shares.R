@@ -1,10 +1,10 @@
 rm(Data)
 #reading the file
-setwd("E:/Sulayman's Stuff/My Projects")
+setwd("E:/Sulayman's Stuff/My Projects/Online Investment")
 #setting up the initial dataset
-Data1<-read.delim("Online Investment/Stocks/stock1.txt", header=TRUE, sep = ",")
-Data2<-read.delim("Online Investment/Stocks/stock1.txt", header=TRUE, sep = ",")
-Data3<-read.delim("Online Investment/Stocks/stock1.txt", header=TRUE, sep = ",")
+Data1<-read.delim("Stocks/stock1.txt", header=TRUE, sep = ",")
+Data2<-read.delim("Stocks/stock2.txt", header=TRUE, sep = ",")
+Data3<-read.delim("Stocks/stock3.txt", header=TRUE, sep = ",")
 #Only interested if the stock went up or down, not by how much.
 
 s1<-Data1[1:100,1:7]
